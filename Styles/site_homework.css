@@ -1,0 +1,33 @@
+body {
+	background: wheat;
+}
+
+h1 {
+	margin: 0;
+	font-family: georgia, arial, helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 1.5;
+	letter-spacing: .1em;
+	text-transform: none;
+	color: rgba(255, 152, 62, .5);
+}
+
+h2 {
+	font-family: georgia, arial, helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+a {
+	color: black;
+	font-style: normal;
+}
+
+p{
+	font-family: georgia, arial, helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
