@@ -7,9 +7,49 @@ h1 {
 	font-family: hobo std, georgia, gotham, arial, helvetica, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 120px;
+	font-size: 50px;
 	line-height: 1.5;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	color: rgba(255, 152, 62, .5);
+}
+
+.nav{
+	padding: 0;
+	list-style: none;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 1em;
+	background: white;
+}
+
+.nav.center {
+	text-align: center;
+}
+
+.nav.fit {
+	display: table;
+	width: 100%;
+}
+
+.nav.fit li {
+	display: table-cell;
+}
+
+.nav.fit a {
+	display: block;
+}
+
+.bar {
+
+}
+
+#primary-nav {
+
 }
