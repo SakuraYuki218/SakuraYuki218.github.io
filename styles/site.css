@@ -14,19 +14,43 @@ h1 {
 	color: rgba(255, 152, 62, .5);
 }
 
-.nav{
+.nav {
 	padding: 0;
 	list-style: none;
 }
 
-.nav li{
+.nav li {
 	display: inline-block;
 }
 
 .nav a {
 	display: inline-block;
+	position: relative;
 	padding: 1em;
+	background: pink;
+	transition: all 1s ease-out;
+}
+
+.nav a:hover {
+	color: red;
 	background: white;
+	transition-duration: .3s;
+}
+
+.nav a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 5px;
+	background: cyan;
+	transition: all .3s ease-in;
+}
+
+.nav a:hover:after {
+	width: 100%;
 }
 
 .nav.center {
