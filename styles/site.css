@@ -22,7 +22,7 @@ iframe {
 }
 
 .masthead {
-	background: black;
+	background: #D2BEFA;
 }
 
 /*
@@ -59,8 +59,8 @@ h1 {
 }
 
 .nav a:hover {
-	color: red;
-	background: white;
+	color: #E6FABE;
+	background: #D2BEFA;
 	transition-duration: .3s;
 }
 
@@ -72,7 +72,7 @@ h1 {
 	left: 0;
 	width: 0%;
 	height: 5px;
-	background: cyan;
+	background: #BEFAF0;
 	transition: all .3s ease-in;
 }
 
@@ -105,7 +105,7 @@ h1 {
 }
 
 .sub-content {
-	background: cream;
+	background: pink;
 }
 
 @media (min-width: 500px) {
