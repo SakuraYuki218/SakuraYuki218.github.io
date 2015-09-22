@@ -1,13 +1,40 @@
 body {
 	background: pink;
+	margin: 0;
 }
+
+img,
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.clear {
+	overflow: hidden;
+}
+
+.masthead {
+	background: black;
+}
+
+/*
+	Masthead shows up at the top of the page and includes the nav
+*/
 
 h1 {
 	margin: 0;
 	font-family: hobo std, georgia, gotham, arial, helvetica, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
+	font-size: 25px;
 	line-height: 1.5;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -20,11 +47,11 @@ h1 {
 }
 
 .nav li {
-	display: inline-block;
+	display: block;
 }
 
 .nav a {
-	display: inline-block;
+	display: block;
 	position: relative;
 	padding: 1em;
 	background: pink;
@@ -57,23 +84,44 @@ h1 {
 	text-align: center;
 }
 
-.nav.fit {
-	display: table;
-	width: 100%;
+@media (min-width: 500px){
+		.nav.fit {
+			display: table;
+			width: 100%;
+	}
+
+	.nav.fit li {
+		display: table-cell;
+	}
+
+	.nav.fit a {
+		display: block;
+	}
 }
 
-.nav.fit li {
-	display: table-cell;
+
+.main-content {
+	background: white;
 }
 
-.nav.fit a {
-	display: block;
+.sub-content {
+	background: cream;
 }
 
-.bar {
+@media (min-width: 500px) {
+	.main-content {
+		float: left;
+		width: 60%;	
+		margin-left: 20%;
+	}
 
-}
-
-#primary-nav {
-
-}
+	.sub-content {
+		float: left;
+		width: 20%;
+		margin-left: -80%;
+		
+	}	
+	.thrid-content {
+		float: left;
+		width: 20%;
+	}
