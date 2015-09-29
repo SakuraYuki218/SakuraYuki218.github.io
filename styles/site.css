@@ -34,10 +34,10 @@ h1 {
 	font-family: hobo std, georgia, gotham, arial, helvetica, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 1.5;
 	letter-spacing: .1em;
-	text-transform: uppercase;
+	text-transform: normal;
 	color: rgba(255, 152, 62, .5);
 }
 
