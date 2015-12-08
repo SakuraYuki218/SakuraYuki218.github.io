@@ -76,25 +76,40 @@
 
 body {
 	font-family: 'fira_sans', helvetica neue, helvetica, arial, sans-serif;
-  background-color: #e4ebfd;
-  color: #71788a;
+	background-color: #e4ebfd;
+	color: #71788a;
 }
 
 .site-masthead__primary,
 .site-masthead__nav {
-  background-color: #FCD9DC;
+	background-color: #FCD9DC;
 }
 
 .site-masthead__nav {
-  background-color: #FCD9DC;
+	background-color: #FCD9DC;
 }
 
+.primary__link {
+	color: #71788a;
+}
+
+.site-masthead__menu {
+	position: fixed;
+	max-height: 0;
+	overflow: hidden;
+	z-index: 1;
+	background: #FCD9DC;
+	transition: all 0s ease-out;
+	opacity: 0;
+	font-size: 25px;
+	color: #71788a;
+}
 h1 {
-  color: #71788a;
+	color: #71788a;
 }
 
 h2 {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 h3 {
@@ -104,31 +119,31 @@ h3 {
 }
 
 h4 {
-  font-weight: normal;
-  padding: 0px;
-  margin: 0px;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
 }
 
 .block-overlay__src {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .block-overlay__content{
-  margin-top: 0px;
-  padding-top: 0px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .site-masthead__toggle {
-  background-color: #e4ebfd;
-  font-size: 25px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  margin-top: 5px;
-  padding-top: 5px;
-  color: #181F31;
+	background-color: #e4ebfd;
+	font-size: 25px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	padding-top: 5px;
+	color: #181F31;
 }
 
 .block-overlay__title {
